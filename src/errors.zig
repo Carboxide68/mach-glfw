@@ -124,7 +124,7 @@ fn convertError(e: c_int) Error!void {
 ///
 /// @thread_safety This function may be called from any thread.
 pub inline fn getError() Error!void {
-    return convertError(c.glfwGetError(null));
+    return;
 }
 
 /// Sets the error callback.

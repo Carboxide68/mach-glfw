@@ -30,6 +30,7 @@ pub const Cursor = @import("Cursor.zig");
 pub const Native = @import("native.zig").Native;
 pub const BackendOptions = @import("native.zig").BackendOptions;
 pub const Key = key.Key;
+pub const MouseButton = mouse_button.MouseButton;
 
 pub usingnamespace @import("clipboard.zig");
 pub usingnamespace @import("opengl.zig");
